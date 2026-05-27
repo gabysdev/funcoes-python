@@ -6,3 +6,6 @@ def par_ou_impar(numero):
 
 par_ou_impar(5)
 par_ou_impar(8)            
+
+numero = int(input("Digite:"))
+par_ou_impar(numero)
