@@ -4,8 +4,9 @@ def par_ou_impar(numero):
     else:
         print("impar")
 
-par_ou_impar(5)
-par_ou_impar(8)            
+if __name__ == "__main__":
+    par_ou_impar(5)
+    par_ou_impar(8)            
 
-numero = int(input("Digite:"))
-par_ou_impar(numero)
+    numero = int(input("Digite:"))
+    par_ou_impar(numero)

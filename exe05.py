@@ -9,7 +9,8 @@ def calculadora(a, b, operacao):
         result = a / b
     return result        
 
-print(calculadora(4, 2, "+"))
-print(calculadora(4, 2, "-"))
-print(calculadora(4, 2, "*"))
-print(calculadora(4, 2, "/"))
+if __name__ == "__main__":
+    print(calculadora(4, 2, "+"))
+    print(calculadora(4, 2, "-"))
+    print(calculadora(4, 2, "*"))
+    print(calculadora(4, 2, "/"))

@@ -6,6 +6,6 @@ def maior_numero(a,b):
 
 #Exemplo:
 
-
-maior_numero(a=3, b=9)
-maior_numero(b=9, a=3)
+if __name__ == "__main__":
+    maior_numero(a=3, b=9)
+    maior_numero(b=9, a=3)

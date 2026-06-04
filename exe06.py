@@ -5,4 +5,5 @@ def contar_vogais(texto):
             count_vogal += 1
     return count_vogal
 
-print(contar_vogais("GABRIELLE"))     
+if __name__ == "__main__":
+    print(contar_vogais("GABRIELLE"))     
